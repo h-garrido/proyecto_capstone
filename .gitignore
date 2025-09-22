@@ -1,0 +1,67 @@
+# Ignorar archivos de Word, Excel y PowerPoint en todas las carpetas
+# **/*.docx
+# **/*.doc
+# **/*.xlsx
+# **/*.xls
+# **/*.pptx
+# **/*.ppt
+
+# Configuración base para proyectos en Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de sistema y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+~*
+
+# Carpetas de dependencias y compilación
+node_modules/
+dist/
+build/
+out/
+
+# Archivos de configuración de entorno
+.env
+.env.*
+
+# Reglas para proyectos Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+.tox/
+.vscode/
+etl/etl_core.py
+etl/ejemplos_axis.py
+etl/demo_descargas.py
+etl/consultas_axis.py
+etl/axis_etl.py
+requirements.txt
+README.md
+proyecto_capstone.zip
