@@ -1,12 +1,13 @@
 # Ignorar archivos de Word, Excel y PowerPoint en todas las carpetas
-# **/*.docx
+ **/*.docx
 # **/*.doc
-# **/*.xlsx
+ **/*.xlsx
 # **/*.xls
-# **/*.pptx
+ **/*.pptx
 # **/*.ppt
 
 # Configuración base para proyectos en Windows
+**/.DS_Store
 .DS_Store
 Thumbs.db
 ehthumbs.db
